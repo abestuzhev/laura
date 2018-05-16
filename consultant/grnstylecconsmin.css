@@ -1,0 +1,565 @@
+#okDiv a.close{
+    position: absolute;
+    top: -30px;
+    right: -30px;
+}
+.consContentorm {
+	width: 340px;
+	height: 470px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	z-index: 1;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px
+}
+.consfinner {
+	width: 100%;
+	height: 485px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #57b500;
+	border-radius: 10px;
+	background-color: #fff
+}
+.grnb {
+	background-color: #57b500;
+	border: 11px solid #57b500;
+	border-radius: 15px
+}
+.redb {
+	background-color: #cc3300;
+	border: 11px solid #cc3300;
+	border-radius: 15px;
+	height: 486px;
+}
+.conshead {
+	width: 100%;
+	height: 133px;
+	z-index: 2;
+	position: relative;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box
+}
+.conshead img {
+	display: block;
+	float: left;
+	z-index: 3;
+	margin-top: -20px;
+	margin-left: 5px
+}
+.strip {
+	width: 339px;
+	height: 45px;
+	margin-left: -11px;
+	margin-top: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding-right: 20px;
+	padding-left: 120px
+}
+.grn {
+	background: #57b500;
+	background: -webkit-linear-gradient(#61c900, #57b500, #489500);
+	background: -o-linear-gradient(#61c900, #57b500, #489500);
+	background: -moz-linear-gradient(#61c900, #57b500, #489500);
+	background: linear-gradient(#61c900, #57b500, #489500)
+}
+.red {
+	background: #cc3300;
+	background: -webkit-linear-gradient(#cc5530, #cc3300, #cc603d);
+	background: -o-linear-gradient(#cc5530, #cc3300, #cc603d);
+	background: -moz-linear-gradient(#cc5530, #cc3300, #cc603d);
+	background: linear-gradient(#cc5530, #cc3300, #cc603d)
+}
+span.ang {
+	display: block;
+	width: 11px;
+	height: 10px;
+	clear: both;
+	position: absolute;
+	top: 45px;
+	left: 317px
+}
+span.grnang {
+	background: url(http://laura.ru/img/consultant/anggr.png) no-repeat
+}
+span.redang {
+	background: url(http://laura.ru/img/consultant/angrd.png) no-repeat
+}
+.strip p {
+	margin: 0 0 10px;
+	padding-top: 8px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: .875em;
+	text-align: center;
+    clear: none;
+}
+.strip span {
+	font-size: .78125em
+}
+#consultf {
+	padding: 5px 10px;
+	font-size: .875em;
+	position: relative;
+	height: 300px;
+}
+#cnvData {
+	padding: 5px 10px;
+	font-size: .875em;
+    height: 299px;
+    position: relative;
+	text-align: left;
+}
+#consultf label {
+	display: inline-block;
+	margin: 9px 10px 6px 0;
+	text-transform: uppercase;
+    width: inherit;
+    float: none;
+}
+#consultf label.sml{
+	width: 82px;
+}
+#consultf input, #consultf textarea, #chat input {
+	width: 200px;
+	background-color: #f8f7f6;
+	border: 1px solid #ccc;
+	padding: 3px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box
+}
+#consultf select {
+	width: 200px;
+	background-color: #f8f7f6;
+	border: 1px solid #ccc;
+	padding: 2px;
+	margin-top: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box
+}
+.slctlau {
+	/*display: inline-block*/
+}
+.clr {
+	clear: both
+}
+#questcons {
+	vertical-align: bottom;
+	width: 292px!important;
+	height: 70px;
+	font-family: inherit;
+    resize: none;
+}
+#consultf .btns, #consContent .btns {
+	position: absolute;
+	bottom: -43px;
+	left: 6px
+}
+
+#consultf .btns a, #consContent .btns a {
+	display: inline-block;
+	height: 30px;
+	padding: 6px 7px;
+	margin-left: -4px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.1em;
+	text-align: center
+}
+a.c_mail {
+	/*width: 76px;*/
+}
+a.c_begin {
+	/*width: 172px;*/
+	margin-right: 14px!important
+}
+span.ang2 {
+	display: inline-block;
+	width: 7px;
+	height: 10px;
+	/*position: absolute;
+	top: 20px;
+	left: -6px*/
+    vertical-align: bottom;
+}
+span.ang3 {
+	display: inline-block;
+	width: 7px;
+	height: 10px;
+	/*position: absolute;
+	top: 20px;
+	left: 144px*/
+    vertical-align: bottom;
+}
+span.grnang2 {
+	background: url(http://laura.ru/img/consultant/anggr2.png) no-repeat
+}
+span.redang2 {
+	background: url(http://laura.ru/img/consultant/angred2.png) no-repeat
+}
+#brandscons {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-collapse: collapse;
+	text-align: center
+}
+#brandscons td{
+    border: 0;
+    padding: 0;
+}
+#brandscons label {
+	display: block;
+	width: 45px;
+	height: 40px;
+	background: url(http://laura.ru/img/consultant/brands.png) 0 0 no-repeat;
+	position: relative;
+	margin: 0
+}
+#brandscons input {
+	width: 20px;
+	border: none!important;
+	background-color: #fff!important
+}
+#brandscons label.c_sy {
+	width: 44px;
+	background-position: 0 0
+}
+#brandscons label.c_renault {
+	width: 37px;
+	background-position: -50px 0
+}
+#brandscons label.c_chevrolet {
+	width: 55px;
+	background-position: -90px 0
+}
+#brandscons label.c_opel {
+	width: 48px;
+	background-position: -142px 0
+}
+#brandscons label.c_suzuki {
+	width: 60px;
+	background-position: -187px 0
+}
+#brandscons label.c_cadillac {
+	width: 50px;
+	background-position: -244px 0
+}
+#brandscons label.c_sy.selected {
+	background-position: 0 -59px
+}
+#brandscons label.c_renault.selected {
+	background-position: -50px -59px
+}
+#brandscons label.c_chevrolet.selected {
+	background-position: -90px -59px
+}
+#brandscons label.c_opel.selected {
+	background-position: -142px -59px
+}
+#brandscons label.c_suzuki.selected {
+	background-position: -187px -59px
+}
+#brandscons label.c_cadillac.selected {
+	background-position: -244px -59px
+}
+.slctlau .select2-container {
+	margin: 0;
+	position: relative;
+	display: inline-block;
+	zoom: 1;
+*display:inline;
+	vertical-align: middle;
+	outline: 0!important
+}
+.slctlau .select2-container, .slctlau .select2-drop, .slctlau .select2-results {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif!important;
+	font-size: .875em!important
+}
+.slctlau .select2-container {
+	border: 1px solid #ccc!important;
+	box-shadow: none!important
+}
+.slctlau .select2-container .select2-choice {
+	display: block;
+	height: 24px;
+	padding: 0 0 0 8px;
+	overflow: hidden;
+	position: relative;
+	white-space: nowrap;
+	line-height: 24px;
+	color: #444;
+	text-decoration: none;
+	background-clip: padding-box;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-color: #f8f7f6!important;
+	border: none!important;
+	background-image: none!important
+}
+.select2-container.select2-drop-above .select2-choice {
+	border-bottom-color: #aaa
+}
+.select2-container.select2-allowclear .select2-choice .select2-chosen {
+	margin-right: 42px
+}
+.select2-container .select2-choice>.select2-chosen {
+	margin-right: 26px;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+.select2-container .select2-choice abbr {
+	display: none;
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	right: 24px;
+	top: 8px;
+	font-size: 1px;
+	text-decoration: none;
+	border: 0;
+	cursor: pointer;
+	outline: 0
+}
+.select2-container.select2-allowclear .select2-choice abbr {
+	display: inline-block
+}
+.select2-container .select2-choice abbr:hover {
+	background-position: right -11px;
+	cursor: pointer
+}
+.select2-drop-mask {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	min-height: 100%;
+	min-width: 100%;
+	height: auto;
+	width: auto;
+	opacity: 0;
+	z-index: 9998;
+	background-color: #fff;
+	filter: alpha(opacity=0)
+}
+.select2-drop {
+	width: 100%;
+	margin-top: -1px;
+	position: absolute;
+	z-index: 9999;
+	top: 100%;
+	background: #fff;
+	color: #000;
+	border: 1px solid #ccc;
+	border-top: 0
+}
+.select2-drop-auto-width {
+	border-top: 1px solid #aaa;
+	width: auto
+}
+.select2-drop-auto-width .select2-search {
+	padding-top: 4px
+}
+.select2-container .select2-choice .select2-arrow {
+	display: inline-block;
+	width: 19px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0
+}
+.slctlau .select2-container .select2-choice .select2-arrow b {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url(http://laura.ru/img/consultant/selgreen.png) no-repeat 0 1px
+}
+.slctlau .select2-dropdown-open .select2-choice .select2-arrow {
+	background: 0 0;
+	border-left: none;
+	filter: none
+}
+#consContent{
+	/*overflow: auto;*/
+	position:relative;
+    height: 352px;
+}
+#chat{
+	position: absolute;
+	bottom: 0;
+}
+#conversation{
+	position: absolute;
+    bottom: 80px;
+    top: 0;
+    overflow: auto;
+    padding: 5px 10px;
+    width: 275px;
+}
+.slctlau .select2-results {
+	max-height: 200px;
+	padding: 0 0 0 4px;
+	margin: 4px 4px 4px 0;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: auto;
+	-webkit-tap-highlight-color: rgba(0,0,0,0)
+}
+.slctlau .select2-results ul.select2-result-sub {
+	margin: 0;
+	padding-left: 0
+}
+.slctlau .select2-results ul.select2-result-sub>li .select2-result-label {
+	padding-left: 20px
+}
+.slctlau .select2-results ul.select2-result-sub ul.select2-result-sub>li .select2-result-label {
+	padding-left: 40px
+}
+.slctlau .select2-results ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub>li .select2-result-label {
+	padding-left: 60px
+}
+.slctlau .select2-results ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub>li .select2-result-label {
+	padding-left: 80px
+}
+.slctlau .select2-results ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub>li .select2-result-label {
+	padding-left: 100px
+}
+.slctlau .select2-results ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub>li .select2-result-label {
+	padding-left: 110px
+}
+.slctlau .select2-results ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub>li .select2-result-label {
+	padding-left: 120px
+}
+.slctlau .select2-results li {
+	list-style: none;
+	display: list-item;
+	background-image: none
+}
+.select2-results li.select2-result-with-children>.select2-result-label {
+	font-weight: 700
+}
+.select2-results .select2-result-label {
+	padding: 3px 7px 4px;
+	margin: 0;
+	cursor: pointer;
+	min-height: 1em;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+.slctlau .select2-results .select2-highlighted {
+	background: #3875d7;
+	color: #fff
+}
+.select2-results li em {
+	background: #feffde;
+	font-style: normal
+}
+.select2-results .select2-highlighted em {
+	background: 0 0
+}
+.select2-results .select2-highlighted ul {
+	background: #fff;
+	color: #000
+}
+.select2-results .select2-no-results, .select2-results .select2-searching, .select2-results .select2-selection-limit {
+	background: #f4f4f4;
+	display: list-item
+}
+.select2-results .select2-disabled.select2-highlighted {
+	color: #666;
+	background: #f4f4f4;
+	display: list-item;
+	cursor: default
+}
+.select2-results .select2-disabled {
+	background: #f4f4f4;
+	display: list-item;
+	cursor: default
+}
+.select2-results .select2-selected {
+	display: none
+}
+.select2-more-results {
+	background: #f4f4f4;
+	display: list-item
+}
+.select2-offscreen, .select2-offscreen:focus {
+	clip: rect(0 0 0 0)!important;
+	width: 1px!important;
+	height: 1px!important;
+	border: 0!important;
+	margin: 0!important;
+	padding: 0!important;
+	overflow: hidden!important;
+	position: absolute!important;
+	outline: 0!important;
+	left: 0!important;
+	top: 0!important
+}
+.select2-display-none {
+	display: none
+}
+.select2-measure-scrollbar {
+	position: absolute;
+	top: -10000px;
+	left: -10000px;
+	width: 100px;
+	height: 100px;
+	overflow: scroll
+}
+#oks{
+	width: 47px;
+	height: 250px;
+	background: url('http://laura.ru/img/consultant/okbutton.png') left top no-repeat;
+	position: fixed;
+	left: 0;
+	top: 50%;
+	margin-top: -125px;
+	cursor: pointer;
+	z-index: 999;
+}
+.ok_offline{
+	background-position: left bottom !important;
+}
+#okDiv{
+	width: 340px;
+	height: 470px;
+	position: fixed;
+	left: 0;
+	top: 50%;
+	margin-top: -235px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    z-index: 99999;
+    line-height: 1;
+    color: #000;
+}
+#message{
+    width: 296px;
+    height: 40px;
+	border: 1px #ccc solid;
+}
